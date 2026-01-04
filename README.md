@@ -1,7 +1,7 @@
 # Impact of Chemotherapy on Gut Microbiome in AML Patients
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[Zendo DOI] ( DOI: 10.5281/zenodo.18145448 )
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18145448.svg)](https://doi.org/10.5281/zenodo.18145448)
 
 ## Overview
 
