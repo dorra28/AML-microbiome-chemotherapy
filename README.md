@@ -115,7 +115,7 @@ source("scripts/functional_analysis.R")
 ## Contact
 
 - **Author**: Dorra Rjaibi, Mohit Batra , Wee Wei Yee
-- **Email**: dorra.rjaibi@pasteur.utm.tn 
+- **Email**: dorra.rjaibi@pasteur.utm.tn  mohitsbatra2000@gmail.com 
  https://github.com/dorra28/ 
 
 ## Acknowledgments
