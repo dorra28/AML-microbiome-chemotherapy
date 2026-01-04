@@ -11,7 +11,7 @@ This repository contains the complete computational pipeline for analyzing gut m
 If you use this code, please cite:
  Dorra Rjaibi , Mohit Batra ,  Wee Wei Yee (2025). AML Gut Microbiome Analysis Pipeline.
 GitHub: https://github.com/dorra28/AML-microbiome-chemotherapy/
-DOI: 10.5281/zenodo.XXXXXXX
+
 Original data source:
 - Rashidi A, et al. (2022). NCBI SRA: SRP141394
 
@@ -74,19 +74,15 @@ conda env create -f environment.yml
 ### Complete Pipeline
 Run the full analysis:
 ```r
-source("scripts/01_dada2_pipeline.R")
-source("scripts/02_alpha_diversity.R")
-source("scripts/03_beta_diversity.R")
-source("scripts/04_taxonomic_composition.R")
-source("scripts/05_differential_abundance.R")
+source("Complete_pipline_Analysis.R")
 ```
 
 ### Functional Prediction
 ```bash
-bash scripts/06_picrust2_analysis.sh
+bash scripts/picrust2_analysis.sh
 ```
 ```r
-source("scripts/07_functional_analysis.R")
+source("scripts/functional_analysis.R")
 ```
 
 ## Workflow
@@ -114,21 +110,13 @@ source("scripts/07_functional_analysis.R")
    - Pathway analysis
    - Functional shifts
 
-## Results
 
-All figures and tables are saved in `results/`:
-- **Figure 1**: Alpha diversity boxplots
-- **Figure 2**: PCoA ordination (beta diversity)
-- **Figure 3**: Per-sample taxonomic composition
-- **Figure 4**: Mean composition by group
-- **Figure 5**: Differential abundance volcano plot
-- **Figure 6**: Functional profile PCA
-- **Figure 7**: Pathway enrichment
 
 ## Contact
 
 - **Author**: Dorra Rjaibi, Mohit Batra , Wee Wei Yee
-- **Email**:  https://github.com/dorra28/
+- **Email**: dorra.rjaibi@pasteur.utm.tn 
+ https://github.com/dorra28/ 
 
 ## Acknowledgments
 
