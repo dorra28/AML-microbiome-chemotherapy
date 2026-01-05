@@ -116,9 +116,9 @@ source("scripts/functional_analysis.R")
 ## Contact
 
 - **Author**: Dorra Rjaibi, Mohit Batra , Wee Wei Yee
-- **Email**: dorra.rjaibi@pasteur.utm.tn  mohitsbatra2000@gmail.com 
+- **Email**: dorra.rjaibi@pasteur.utm.tn  mohitsbatra2000@gmail.com   Wee.WeiYee@monash.edu
  https://github.com/dorra28/ 
-
+  https://research.monash.edu/en/persons/wee-wei-yee/#
 ## Acknowledgments
 
 - Original data: Rashidi et al. (2022)
